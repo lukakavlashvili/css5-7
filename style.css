@@ -1,0 +1,775 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0B0B0E;
+}
+
+.full_header {
+    display: flex;
+    width: 100%;
+    padding: 14px 200px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #003004;
+
+}
+
+.head_space {
+    display: flex;
+    width: 1040px;
+    height: 52px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 112px 0 125px;
+    gap: 112px;
+
+}
+
+.header_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.first_main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 95px;
+}
+
+.card_text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.internet {
+    color: #FFF;
+    font-size: 56px;
+    font-weight: 600;
+    width: 584px;
+}
+
+.decentralized {
+    color: #7A7A7A;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    width: 548px;
+}
+
+.button_first {
+    display: flex;
+    gap: 16px;
+}
+
+.Create_your {
+    border-radius: 24px;
+    background: #FF371A;
+    display: flex;
+    width: 200px;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.Get_AAI {
+    display: flex;
+    width: 200px;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 24px;
+    background: #2F2C33;
+    border: none;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.svg {
+    display: flex;
+    gap: 32px;
+}
+
+.second_main {
+    display: flex;
+    width: 1040px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.second_txt {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: normal;
+    width: 972px;
+    text-align: center;
+}
+
+.second_brain {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    gap: 24px;
+    border-radius: 12px;
+    background: #191919;
+    width: 508px;
+}
+
+.Decentralized {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.Unstoppable {
+    color: #797979;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    width: 435px;
+}
+
+.second_gapfirst {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.Inference_AP {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    gap: 24px;
+    width: 508px;
+    border-radius: 12px;
+    background: #191919;
+}
+
+.setingtxt {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 269px;
+}
+
+.Unstoppablett {
+    color: #797979;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    width: 263px;
+}
+
+.brain_inferce {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.rewards {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    gap: 24px;
+    border-radius: 12px;
+    background: #191919;
+    width: 508px;
+    height: 279px;
+}
+
+.hmhmh {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.seconddd {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.Compute {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.jfjf {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.secondlast {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.rvdr {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 12px;
+    background: #191919;
+    width: 508px;
+}
+
+.AI-Powered {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.contracts {
+    color: #797979;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.threemain {
+    display: flex;
+    max-width: 1040px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.threetxt {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Wall {
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.first-hand {
+    color: #7A7A7A;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.full_card {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.first_card {
+    display: flex;
+    width: 508px;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    border-radius: 12px;
+    background: #191919;
+}
+
+.stars_txt {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.imgatars {
+    width: 116px;
+}
+
+.Untitled {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    width: 394px;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.Sienna {
+    color: #535862;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.verifed {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.siennahewitt {
+    color: #535862;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: underline;
+}
+
+.underline {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexdirection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.four_main {
+    display: flex;
+    width: 1040px;
+    padding: 64px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    border-radius: 16px;
+    background: #191919;
+}
+
+.four_txt {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.thinking {
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+.newsletter {
+    color: #7A7A7A;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.form_div {
+    display: flex;
+    gap: 16px;
+    width: 480px;
+    justify-content: center;
+    align-items: center;
+    align-items: baseline;
+}
+
+.input_ {
+    display: flex;
+    padding: 12px 14px;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid #7A7A7A;
+    background: #0B0B0E;
+    width: 310px;
+    color: #717680;
+    font-size: 16px;
+}
+
+.Subscribe {
+    display: flex;
+    padding: 12px 24px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    background: #FF371A;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    border: none;
+}
+
+.formgap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+}
+
+.data {
+    color: #7A7A7A;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.spann {
+    text-decoration: underline;
+}
+
+.five_main {
+    display: flex;
+    max-width: 1040px;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.five_txt {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.Customize {
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 800;
+    width: 485px;
+}
+
+.Pellentesque {
+    color: #7A7A7A;
+    font-size: 18px;
+    font-weight: 400;
+    width: 523px;
+}
+
+.lastfull_card {
+    display: flex;
+    gap: 24px;
+}
+
+.lastfirst_card {
+    display: flex;
+    padding: 40px;
+    padding-left: 13px;
+    padding-right: 13px;
+    justify-content: center;
+    gap: 44px;
+    background: #191919;
+    width: 330px;
+    flex-direction: column;
+}
+
+.shig {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.text_card {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    /* border-bottom: 1px solid #434343; */
+    padding-left: 27px;
+    padding-right: 27px;
+}
+
+.fivehundered {
+    display: flex;
+    width: 125px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
+
+
+}
+
+
+.Basic_Plan {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.finenine {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.Per_Visit {
+    color: #7A7A7A;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.check_txt {
+    display: flex;
+    gap: 12px;
+}
+
+.Electrical {
+    color: #7A7A7A;
+    font-size: 16px;
+    font-weight: 400;
+    /* line-height: 41px; */
+}
+
+.last_txt {
+    padding-left: 27px;
+    padding-right: 27px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.buuton_card {
+    padding-left: 27px;
+    padding-right: 27px;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.buy_now {
+    border: 1.5px solid #FF371A;
+    background: #FF371A;
+    border: none;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 21px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.buy_nowtwo {
+    background: #191919;
+    ;
+    border: none;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 21px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: 1.5px solid #FF371A;
+}
+
+.buuton_cardtwo {
+    padding-left: 27px;
+    padding-right: 27px;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.perviditiii::before {
+    content: "POPULAR";
+    display: flex;
+    padding: 5px 12px 6px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #FF371A;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.perviditiii {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-end;
+}
+
+.card_txtred {
+    display: flex;
+    gap: 82px;
+    align-items: flex-start;
+
+}
+
+.redcckeck {
+    display: flex;
+    align-items: flex-start;
+    gap: 13px;
+}
+
+
+.redtxt {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+}
+
+.Affordable {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.lacinia {
+    color: #7A7A7A;
+    font-size: 18px;
+    font-weight: 400;
+    width: 390px;
+}
+
+.full_footer {
+    display: flex;
+    width: 1440px;
+    padding: 0px 200px;
+    align-items: flex-start;
+    gap: 64px;
+    flex-direction: column;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    align-items: center;
+}
+
+.footer_gap {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.footer_innovate {
+    display: flex;
+    width: 320px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.amazing {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.footer_txt {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.footer_text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+    width: 176px;
+}
+
+.Product {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.Overview {
+    color: #535862;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.divnew {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.last_footer {
+    display: flex;
+    justify-content: flex-start;
+    gap: 32px;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 32px;
+}
+
+.twenseven {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.terst {
+    display: flex;
+    gap: 24px;
+}
+
+.icong {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
