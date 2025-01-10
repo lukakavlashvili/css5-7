@@ -121,7 +121,7 @@ main {
 
 .second_main {
     display: flex;
-    width: 1040px;
+    max-width: 1040px;
     flex-direction: column;
     align-items: center;
     gap: 32px;
@@ -213,6 +213,7 @@ main {
     display: flex;
     align-items: flex-start;
     gap: 24px;
+    flex-wrap: wrap;
 }
 
 .seconddd {
@@ -300,6 +301,7 @@ main {
     display: flex;
     gap: 24px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .first_card {
@@ -468,6 +470,7 @@ main {
     display: flex;
     align-items: center;
     gap: 40px;
+    flex-wrap: wrap;
 }
 
 .Customize {
@@ -487,6 +490,7 @@ main {
 .lastfull_card {
     display: flex;
     gap: 24px;
+    flex-wrap: wrap;
 }
 
 .lastfirst_card {
@@ -644,7 +648,7 @@ main {
     display: flex;
     gap: 82px;
     align-items: flex-start;
-
+    flex-wrap: wrap;
 }
 
 .redcckeck {
@@ -676,7 +680,8 @@ main {
 
 .full_footer {
     display: flex;
-    width: 1440px;
+    max-width: 1440px;
+    width: 100%;
     padding: 0px 200px;
     align-items: flex-start;
     gap: 64px;
@@ -716,6 +721,7 @@ footer {
     display: flex;
     align-items: flex-start;
     gap: 16px;
+    flex-wrap: wrap;
 }
 
 .footer_text {
@@ -766,6 +772,7 @@ footer {
 .terst {
     display: flex;
     gap: 24px;
+    flex-wrap: wrap;
 }
 
 .icong {
