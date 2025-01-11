@@ -11,7 +11,7 @@ body {
 .full_header {
     display: flex;
     width: 100%;
-    padding: 14px 200px;
+    padding-top: 14px ;
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid #003004;
@@ -484,7 +484,7 @@ main {
     color: #7A7A7A;
     font-size: 18px;
     font-weight: 400;
-    width: 523px;
+    width: 500px;
 }
 
 .lastfull_card {
@@ -680,9 +680,8 @@ main {
 
 .full_footer {
     display: flex;
-    max-width: 1440px;
+    max-width: 1024px;
     width: 100%;
-    padding: 0px 200px;
     align-items: flex-start;
     gap: 64px;
     flex-direction: column;
@@ -721,7 +720,6 @@ footer {
     display: flex;
     align-items: flex-start;
     gap: 16px;
-    flex-wrap: wrap;
 }
 
 .footer_text {
@@ -772,7 +770,6 @@ footer {
 .terst {
     display: flex;
     gap: 24px;
-    flex-wrap: wrap;
 }
 
 .icong {
